@@ -1,73 +1,76 @@
 <!DOCTYPE html>
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
-    <title>Mans portfolio</title>
-    <link rel="stylesheet" href="mansStils.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans Datorikas Portfolio</title>
+    <link rel="stylesheet" href="css/mansStils.css">
 </head>
 <body>
 
-<div class="container">
+    <!-- Navigācijas panelis -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#projekts">Sākums</a></li>
+             <li><a href="#tekstapstrade">Tekstapstrāde</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#atteli">Attēli</a></li>
+            <li><a href="#3D">3D Modelēšana</a></li>
+            <li><a href="#izklajlapas">Izklājlapas</a></li>
+            <li><a href="skola.html">Skolas mājaslapa</a></li>
+        
+        </ul>
+    </nav>
 
-    <h1>Mans datorikas portfolio</h1>
-    <p>
-        Mācību gada laikā apguvām dažādas prasmes datorikā – tekstapstrādi, attēlu apstrādi,
-        vektorgrafiku, 3D modelēšanu, video veidošanu un darbu ar izklājlapām.
-    </p>
+    <!-- Sākums -->
+    <header id="Sākums">
+        <h1>MANS DATORIKAS PORTFOLIO</h1>
+        <p>Šajā mājaslapā ir mūsu šī gada apgūtās tēmas</p>
+    </header>
 
-    <!-- 1. tekstapstrāde -->
-    <h2>Tekstapstrāde(MS WORD)</h2>
-    <p>
-        Šajā sadaļā apguvu dokumentu formatēšanu, teksta noformēšanu un strukturēšanu.
-    </p>
-    <img src="images/msword.jpg" alt="Tekstapstrādes piemērs">
-
-    <!-- 2. rastrgrafika (GIF) -->
-    <h2>Rastrgrafika – GIF animācija</h2>
-    <p>
-        Izveidoju animētu GIF attēlu, izmantojot rastra grafikas rīkus.
-    </p>
-    <img src="images/WIFI.gif" alt="GIF animācija">
-
-    <!-- 3. vektorgrafika -->
-    <h2>Vektorgrafika – Logo</h2>
-    <p>
-        Izveidoju logo, izmantojot vektorgrafikas programmu.
-    </p>
-    <img src="images/VARIS_LOGO.svg" alt="Logo">
-
-    <!-- 4. 3D modelēšana -->
-    <h2>3D modelēšana</h2>
-    <p>
-        Apguvu 3D modelēšanas pamatus un izveidoju kuba skaldni.
-    </p>
-    <img src="images/3d.png" alt="3D modelis">
-
-    <!-- 5. Video -->
-    <h2>Video – Reklāmsuvenīrs</h2>
-    <p>
-        Izveidoju video klipu par reklāmsuvenīra izveidi.
-    </p>
-    <video controls width="100%">
-        <source src="video.mp4" type="video/mp4">
- 
-    </video>
-
-    <!-- 6. Izklājlapas -->
-    <h2>Izklājlapas</h2>
-    <p>
-        Izveidoju aprēķinu failu Excel vidē.
-    </p>
-    <a href="aprekini.xlsx" download>Lejupielādēt aprēķini.xlsx</a>
-
-    <p>   <a href="skola.html"> links uz skola.html </a> </p>
-    <p>   <a href="baiti.html"> links uz baiti.html </a> </p>
-            <p>   <a href="dzd.html"> links uz dzd.html </a> </p>
-             <p>   <a href="mervienibas.html"> links uz mervienibas.html </a> </p>
+    <section id="Tekstapstrāde">
+        <h2>Tekstapstrāde</h2>
+        <p>Apguvām tekstapstrādes aplikāciju MS WORD </p>
+         <img src="word.png" alt="MS Word">
+    </section>
     
-</div>
+    
+    <section id="Video">
+        <h2>Video par reklāmas suvenīra izveidi</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Jūsu pārlūkprogramma neatbalsta video atskaņošanu.
+        </video>
+    </section>
 
-</body>
-</html>
+    <!-- Attēli un grafika -->
+    <section id="atteli">
+        <h2>Attēlu apstrāde</h2>
+        <p>Rastra grafika - GIF animācija:</p>
+        <img src="wifi.gif" alt="GIF animācija">
+        <p>Vektorgrafika – Logo:</p>
+        <img src="varislogo.svg" alt="Logo">
+    </section>
 
+    <!-- 3D modelēšana -->
+    <section id="3D">
+        <h2>3D modelēšana</h2>
+        <img src="3d.png" alt="3D kuba skaldne">
+    </section>
+
+    <!-- Izklājlapas -->
+    <section id="izklajlapas">
+        <h2>Izklājlapas</h2>
+        <p><a href="aprekini.xlsx" download>Lejupielādēt izklājlapu</a></p>
+    </section>
+
+    <footer>
+        <p>Mans Datorikas Portfolio</p>
+        <p><a href="dzd.html">Links uz dzimšanas dienas saiti</a></p>
+        <p><a href="mervienibas.html">Links uz mērvienības saiti</a></p>
+         <p><a href="dzer.html">Links uz dzer saiti</a></p>
+          <p><a href="dzerdaudz.html">Links uz dzerdaudz saiti</a></p>
+    </footer>
+    
 </body>
 </html>
