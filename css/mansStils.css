@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fdf6f0;
     margin: 0;
     padding: 0;
 }
 
-/* Navigācijas josla */
+
 .navbar {
-    background-color: #333;
+    background-color: #4a2c2a;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -34,15 +34,15 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #575757;
+    background-color: #7a4b46;
 }
 
-/* Atstarpe virs virsraksta un sadaļām */
+
 header, section {
-    padding-top: 80px; /* Pārliecināmies, ka ir pietiekami daudz vietas zem fiksētās navigācijas */
+    padding-top: 80px;
 }
 
-/* Sadaļu stili */
+
 section {
     padding: 20px;
 }
@@ -53,12 +53,17 @@ header, section h2 {
 }
 
 h1 {
-    color: #2a9d8f;
+    color: #c1121f;
 }
 
-/* Attēli un video */
+h2 {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    color: #5a3e36;
+}
+
+
 img {
     max-width: 100%;
     height: auto;
 }
-
